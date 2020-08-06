@@ -44,9 +44,7 @@
                       <li><h4><a href="{{ url('/home/user/'.Auth::user()->username) }}">Profile</a></h4></li>
                       <li><h4><a href="{{ url('/home/tweet') }}">Newsfeed</a></h4></li>
                       <li><h4><a href="{{ url('/home/user') }}">Users</a></h4></li>
-                  @else
-                      <a href="{{ url('/login') }}">Login</a>
-                      <a href="{{ url('/register') }}">Register</a>
+                  
                   @endif
                 </div></ol>
 
